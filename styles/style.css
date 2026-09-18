@@ -32,7 +32,7 @@
   margin-top: 100px;
   border: 2px solid rgba(0, 0, 0, 1);
   background-color: var(--bg-color-card);
-  font-family: var(--font-accent);
+  font-family: var(--font-accent), monospace;
   padding-top: 122px;
   padding-bottom: 122px;
   margin-bottom: 100px;
@@ -46,14 +46,14 @@
 }
 
 .header__logo {
-  font-family: var(--font-accent);
+  font-family: var(--font-accent), monospace;
   font-weight: 400;
   font-size: clamp(49px, 4.5vw, 65px);
   text-transform: uppercase;
 }
 
 .header__title {
-  font-family: var(--font-accent);
+  font-family: var(--font-accent), monospace;
   font-weight: 400;
   font-size: clamp(14px, 1.6vw, 23px);
   text-transform: uppercase;
@@ -103,7 +103,7 @@
 }
 
 .card__title {
-  font-family: var(--font-main);
+  font-family: var(--font-main), sans-serif;
   font-weight: 715;
   font-size: 18px;
   margin: 4px 10px;
@@ -126,7 +126,7 @@
   position: absolute;
   top: 25px;
   right: 25px;
-  font-family: var(--font-accent);
+  font-family: var(--font-accent), monospace;
   font-size: 14px;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 1);
@@ -152,7 +152,7 @@
 }
 
 .text {
-  font-family: var(--font-main);
+  font-family: var(--font-main), sans-serif;
   font-weight: 410;
   font-size: 18px;
   line-height: 21px;
@@ -177,7 +177,6 @@
 
 .card__icon-button {
   background-color: transparent;
-  border: none;
   margin-bottom: 21px;
   border: 2px solid transparent;
   transition: border-color 0.3s ease;
@@ -203,7 +202,7 @@
 }
 
 .button__text {
-  font-family: var(--font-accent);
+  font-family: var(--font-accent), monospace;
   font-weight: 400;
   font-size: 14px;
   line-height: 90%;
