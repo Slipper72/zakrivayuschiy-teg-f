@@ -1,1 +1,1 @@
-git@github.com:Slipper72/zakrivayuschiy-teg-f.git
+https://slipper72.github.io/zakrivayuschiy-teg-f/
