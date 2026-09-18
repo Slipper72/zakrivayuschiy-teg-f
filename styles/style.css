@@ -29,13 +29,12 @@
 }
 
 .header {
-  margin-top: 100px;
   border: 2px solid rgba(0, 0, 0, 1);
   background-color: var(--bg-color-card);
   font-family: var(--font-accent), monospace;
   padding-top: 122px;
   padding-bottom: 122px;
-  margin-bottom: 100px;
+  margin: 100px auto;
 }
 
 .header__content {
