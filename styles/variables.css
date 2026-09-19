@@ -5,24 +5,13 @@
   --font-weight-main-text: 410;
   --font-weight-main-title: 715;
   --background-gradient-horizontal: repeating-linear-gradient(
-    to right,
-    #d3d3d3 0px,
-    #d3d3d3 2px,
-    transparent 2px,
-    transparent 4px
+    90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px
   );
   --background-gradient-vertical: repeating-linear-gradient(
-    to bottom,
-    #d3d3d3 0px,
-    #d3d3d3 2px,
-    transparent 2px,
-    transparent 4px
+    180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px
   );
   --background-gradient-evenly: linear-gradient(
-    to bottom,
-    #e7e7e7 0%,
-    #e7e7e7 99%,
-    #1a1a1a 100%
+    180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%
   );
   --container-width: clamp(375px, 80vw, 1440px);
   --bg-color-card: rgba(255, 255, 255, 1);
