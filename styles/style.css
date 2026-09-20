@@ -398,10 +398,11 @@ dialog[open] {
   .save__button {
     flex-direction: row;
     block-size: 55px;
+    margin: 10px auto 100px;
   }
 
   .save__floppy {
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
   }
 }
